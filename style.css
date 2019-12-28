@@ -120,5 +120,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
   text-align: center;
 }
 
+.carousel-caption{
+  padding-bottom: 20px;
+}
+
 
 
