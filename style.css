@@ -85,6 +85,18 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
+.display-2{
+padding-bottom: 40px;
+font-family: 'Slabo 35px', serif;
+
+background-color: rgba(18, 54, 27, 0.5);
+}
+.carousel-caption h3 {
+padding-bottom: 45px;
+font-family: 'Slabo 35px', serif;
+
+ }
+
 
 .padding{
   padding: 7rem !important;
@@ -118,11 +130,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .padding h1 {
   color: #333366;
   text-align: center;
+  font-family: 'Slabo 35px', serif;
 }
 
-.carousel-caption{
-  padding-bottom: 20px;
-}
+
 
 
 
