@@ -99,13 +99,13 @@ font-family: 'Slabo 35px', serif;
 
 
 .padding{
-  padding: 7rem !important;
-  background-color: #f4eec7;
+  padding: 1rem !important;
+  
 }
 
 .buttons a.btn{
   margin: :10px;
-  padding: 10px,30px;
+  padding: 10px,20px;
 
 }
 
@@ -119,21 +119,26 @@ font-family: 'Slabo 35px', serif;
   letter-spacing: 1px;
   font-weight: 400;
   text-shadow: 0 0 1px rgba(255,255,255,0.3);
-  font-size:14px;
+  font-size:24px;
 
 }
 .buttons{
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
+}
+.padding1 h1 {
+  padding-top: 50px;
 }
 
-.padding h1 {
+.padding1 h1 {
   color: #333366;
   text-align: center;
   font-family: 'Slabo 35px', serif;
 }
 
-
-
+.social a {
+  font-size: 4.5em;
+  padding:3rem;
+}
 
 
