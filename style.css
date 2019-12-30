@@ -99,7 +99,7 @@ font-family: 'Slabo 35px', serif;
 
 
 .padding{
-  padding: 1rem !important;
+  padding: 2rem !important;
   
 }
 
@@ -136,9 +136,12 @@ font-family: 'Slabo 35px', serif;
   font-family: 'Slabo 35px', serif;
 }
 
+
 .social a {
   font-size: 4.5em;
   padding:3rem;
 }
+.cnt h2{
+font-family: 'Slabo 35px', serif;
 
-
+}
