@@ -127,17 +127,22 @@ font-family: 'Slabo 35px', serif;
   text-align: center;
   padding-top: 50px;
 }
-.padding1 h1 {
-  padding-top: 50px;
+.padding1{
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #f4f4f4;
 }
 
 .padding1 h1 {
+  padding-top: 50px;
   color: #333366;
   text-align: center;
   font-family: 'Slabo 35px', serif;
 }
 
-
+.cnt{
+   background-color: #f4f4f4;
+}
 .social a {
   font-size: 4.5em;
   padding:3rem;
@@ -146,6 +151,7 @@ font-family: 'Slabo 35px', serif;
 font-family: 'Slabo 35px', serif;
 
 }
+
 
 .fa-facebook{
   color: #3b5998;
