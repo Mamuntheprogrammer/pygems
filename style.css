@@ -46,7 +46,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('img/bg.png');
   position: fixed;
   display: block;
   top: 0;
@@ -60,9 +60,9 @@ figure {
   will-change: transform;
 }
 /*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
+/* [class*="col-"] {
     padding: 1rem;
-}
+} */
 
 
 
@@ -84,15 +84,24 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+.col-12{
+  padding: 0%;
+}
+.btnx{
+  background-color: #232526;
+}
 
 .display-2{
-padding-bottom: 40px;
+padding-bottom: 30px;
 font-family: 'Slabo 35px', serif;
-
+font-size: 66px;
 background-color: rgba(18, 54, 27, 0.5);
 }
+
+
 .carousel-caption h3 {
-padding-bottom: 45px;
+padding-bottom: 96px;
+padding-top: 30px;
 font-family: 'Slabo 35px', serif;
 
  }
@@ -125,17 +134,32 @@ font-family: 'Slabo 35px', serif;
 }
 .buttons{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 9px;
+  padding-bottom: 65px;
+
 }
 .padding1{
-  padding-top: 140px;
-  padding-bottom: 140px;
-  background-color: #f4f4f4;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  /* background-color: #f4f4f4; */
+  background: linear-gradient(to right, #304352, #d7d2cc);
+}
+
+.padding{
+
+  background: linear-gradient(to right, #304352, #d7d2cc);
+}
+
+.padding h1{
+  color: white;
+  text-align: center;
+  font-family: 'Slabo 35px', serif;
+
 }
 
 .padding1 h1 {
   padding-top: 50px;
-  color: #333366;
+  color: white;
   text-align: center;
   font-family: 'Slabo 35px', serif;
 }
@@ -143,10 +167,25 @@ font-family: 'Slabo 35px', serif;
 .cnt{
    background-color: #f4f4f4;
 }
-.social a {
-  font-size: 4.5em;
-  padding:3rem;
+
+.fw{
+  padding-top: 80px;
+  padding-bottom: 10px;
+
+  background: linear-gradient(to right, #304352, #d7d2cc);
+  border: 2px solid #900c3f;
+  border-radius: 5px;
+
 }
+.social a {
+  font-size: 3.5em;
+  padding:1rem;
+}
+
+.social a:hover {
+  background-color: teal;
+}
+
 .cnt h2{
 font-family: 'Slabo 35px', serif;
 
@@ -154,7 +193,7 @@ font-family: 'Slabo 35px', serif;
 
 
 .fa-facebook{
-  color: #3b5998;
+  color: #192965;
 }
 .fa-twitter{
   color: #55acee;
@@ -170,4 +209,58 @@ font-family: 'Slabo 35px', serif;
 }
 .fa-youtube{
   color: #cd201f;
+}
+
+.footer-margin{
+  background-color: #343A40;
+  color:white;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #1d8f61;
+	display:inline-block;
+	cursor:pointer;
+	color:#119999;
+	font-family:Georgia; 
+	font-size:24px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color:#ccc2a6;
+  text-decoration:none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#navbarResponsive a:hover{background: #393e46;}
+
+#navbarResponsive a{color: #f0a500;
+}
+
+
+/* next  */
+
+.nbar2{
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+.nbar h1{
+  color: white;
+  font-family: 'Slabo 35px', serif;
+}
+
+.tb2{
+  color: white;
+  padding-bottom: 70px;
+  font-family: 'Slabo 35px', serif;
 }

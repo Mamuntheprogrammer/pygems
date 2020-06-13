@@ -33,8 +33,17 @@
 			<li class="nav-item active">
 				<a href="#" class="nav-link">Home</a>
 			</li>
-			<li class="nav-item">
-				<a href="#download" class="nav-link">Download</a>
+			<li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Downloads
+		        </a>
+		         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" data-target="#slides" data-slide-to="1" href="#">PyGems Excel</a>
+		          <a class="dropdown-item" data-target="#slides" data-slide-to="2" href="#">PyGems Pdf</a>
+		          <a class="dropdown-item" data-target="#slides" data-slide-to="3" href="#">PyGems Renamer</a>
+		          <a class="dropdown-item" data-target="#slides" data-slide-to="4" href="#">PyGems Combo</a>
+		          <!-- <a class="dropdown-item" data-target="#slides" data-slide-to="1" href="#">Renamer</a> -->
+		        </div>
 			</li>
 			
 			<li class="nav-item dropdown">
@@ -42,22 +51,18 @@
 		          Tutorials
 		        </a>
 		         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=u7uLcwKZU3w">Excel Merger</a>
-		          <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=Zqzdpcty92A">Excel Spliter</a>
-		          <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=Oo1Cf4T7jvE">Pdf Merger</a>
-		          <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=fWrQejzCBs0">Pdf Spliter</a>
-		          <a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=3F_v7rj1Wn4">Renamer</a>
-		          
-		        </div>
-
-
+		          <a class="dropdown-item" href="#PyGems_Excel">PyGems Excel</a>
+		          <a class="dropdown-item" href="#PyGems_Pdf">PyGems Pdf</a>
+		          <a class="dropdown-item" href="#PyGems_Renamer">PyGems Renamer</a>
+		          <a class="dropdown-item" href="#PyGems_Combo">PyGems Combo</a>
+		         </div>
 			</li>
 			
 			<li class="nav-item">
 				<a href="personal/index.html" class="nav-link">Developer</a>
 			</li>
 			<li class="nav-item">
-				<a href="#" class="nav-link">Donate</a>
+				<a href="https://ko-fi.com/pygems" target="_blank" class="nav-link">Support</a>
 			</li>
 
 
@@ -67,55 +72,400 @@
 </div>
 </nav>
 <!--- Image Slider -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-	<ul class="carousel-indicators">
-		<li data-target=#slides data-slide-to="0" class="active"></li>
-		<li data-target=#slides data-slide-to="1"></li>
-		<li data-target=#slides data-slide-to="2"></li>
-		<li data-target=#slides data-slide-to="3"></li>
-		<li data-target=#slides data-slide-to="4"></li>
-		<li data-target=#slides data-slide-to="5"></li>
-
-	</ul>
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img src="img/bg.png" alt="">
-			<div class="carousel-caption">
-				<h1 class="display-2">PyGems Office Utilities</h1>
-				<h3>Be Productive</h3>
-				
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="img/em.png" class="img-fluid" alt="">
-		</div>
-		<div class="carousel-item">
-			<img src="img/es.png" class="img-fluid" alt="">
-		</div>
-		<div class="carousel-item">
-			<img src="img/pm.png" class="img-fluid" alt="">
-		</div>
-		<div class="carousel-item">
-			<img src="img/ps.png" class="img-fluid" alt="">
-		</div>
-		<div class="carousel-item">
-			<img src="img/r.png" class="img-fluid" alt="">
-		</div>
-	</div>
+<div class="container-fluid" id="oo">
+	<div class="row">
+	  <!-- <div class="col-4 btnx">
+		<a class="myButton" data-target="#slides" data-slide-to="1" href="#">Pygems excel</a><br><br>
+		<a class="myButton" data-target="#slides" data-slide-to="1" href="#">Pygems excel</a><br><br>
+		<a class="myButton" data-target="#slides" data-slide-to="1" href="#">Pygems excel</a><br><br>
+	  </div> -->
+	  <div class="col-12" >
+		<div id="slides" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target=#slides data-slide-to="0" class="active"></li>
+				<li data-target=#slides data-slide-to="1"></li>
+				<li data-target=#slides data-slide-to="2"></li>
+				<li data-target=#slides data-slide-to="3"></li>
+				<li data-target=#slides data-slide-to="4"></li>
 	
-</div>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/bg.png" alt="">
+					<div class="carousel-caption">
+						<h1 class="display-2">PyGems Office Utilities</h1>
+						<h3>Be Productive</h3>
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/bg.png" alt="">
+					<div class="carousel-caption">
+						<h1 class="display-2">PyGems Excel Utilitie</h1>
+						<div class="buttons">
+							<a href="https://drive.google.com/uc?id=1oX-YU6ueMBLxkEuAi5-zfgG0m0pk7gcl&export=download
+							" class="btn btn-success btn-lg"><i class="fab fa-windows" aria-hidden="true"></i> Download <br> <small>Windows Version 2.1 </small></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/bg.png" alt="">
+					<div class="carousel-caption">
+						<h1 class="display-2">PyGems Pdf Utilitie</h1>
+						<div class="buttons">
+							<a href="https://drive.google.com/uc?id=1rxefAH3gkAVYnb-QESSkDDvjha26eJ7b&export=download" class="btn btn-success btn-lg"><i class="fab fa-windows" aria-hidden="true"></i> Download <br> <small>Windows Version 2.0 </small></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/bg.png" alt="">
+					<div class="carousel-caption">
+						<h1 class="display-2">PyGems Batch File Renamer</h1>
+						<div class="buttons">
+							<a href="https://drive.google.com/uc?id=1ARShoB-ix5gWHPe2FFX6g3VDOYU-MYFS&export=download" class="btn btn-success btn-lg"><i class="fab fa-windows" aria-hidden="true"></i> Download <br> <small>Windows Version 2.0 </small></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/bg.png" alt="">
+					<div class="carousel-caption">
+						<h1 class="display-2">PyGems Office Combo</h1>
+						<div class="buttons">
+							<a href="https://drive.google.com/uc?id=1fTj540jrnOMpcUT5Bf5lZguBIOmlup_s&export=download" class="btn btn-success btn-lg"><i class="fab fa-windows" aria-hidden="true"></i> Download <br> <small>Windows Version 2.1 </small></a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<!-- second slider  -->
+
+
+
+
+
 
 
 <!--- Download Button -->
+<div class="container-fluid">
+	
+	<div class="row">
+		<div class="col-12">
+
 <div class="padding1 " id="download">
-	<div class="col-md-12">
-		<h1>Download Our Application</h1>
+	<!-- <div class="col-md-12"> -->
+		<h1>PyGems Exclusive Combo </h1>
 		<div class="buttons">
-			<a href="https://drive.google.com/uc?export=download&id=1FAXrcdi4nW6mONpiCFd8IQfGGBWeGa82" class="btn btn-success btn-lg"><i class="fab fa-windows" aria-hidden="true"></i> Download <br> <small>Windows Version 1.1 </small></a>
+			<a href="https://drive.google.com/uc?id=1fTj540jrnOMpcUT5Bf5lZguBIOmlup_s&export=download" class="btn btn-success btn-lg"><i class="fab fa-windows" aria-hidden="true"></i> Download <br> <small>Windows Version 2.1 </small></a>
 		</div>
 		
 	</div>
 </div>
+</div>
+</div>
+
+
+<!-- Tutorial Portion -->
+
+<div class="container-fluid fw" id="PyGems_Excel">
+	<nav class="navbar navbar-light bg-dark nbar">
+		<h1>PyGems Excel Utilitie</h1>
+		<a href="https://drive.google.com/uc?id=1oX-YU6ueMBLxkEuAi5-zfgG0m0pk7gcl&export=download" class="btn btn-warning" role="button" aria-pressed="true">Download</a>
+
+	  </nav>
+	<div class="row nbar2">
+		<div class="col-6">
+			
+			<img src="img/excel.gif" class="img-fluid" alt="Responsive image">
+		</div>
+		<div class="col-6">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+	<!-- Functionalities + Warnings -->
+	<div class="row">
+		<div class="col-6 tb2">
+			
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-success">Functions</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">1</th>
+					<td>Merge Multiple Excel Files Control Over Data Header</td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Merge Multiple Excel File's Sheets to A Single File </td>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td >Split Each Sheet to Single File</td>
+				  </tr>
+				  <tr>
+					<th scope="row">4</th>
+					<td >Split Data Recomended Given Total File Number </td>
+				  </tr>
+				  <tr>
+					<th scope="row">4</th>
+					<td >Split Data to Sheet wise (Dynamic Filter) </td>
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+		<div class="col-6 tb2">
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-danger">Warnings</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">1</th>
+					<td>Only Work with *XLSX or *xlsx Extension</td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Must Close the all Files That You Working with </td>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td >Please Rename The File Name Given by the Application To Ignore Redundancy</td>
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid fw" id="PyGems_Pdf">
+	<nav class="navbar navbar-light bg-dark nbar">
+		<h1>PyGems PDF Utilitie</h1>
+		<a href="https://drive.google.com/uc?id=1rxefAH3gkAVYnb-QESSkDDvjha26eJ7b&export=download" class="btn btn-warning" role="button" aria-pressed="true">Download</a>
+
+	  </nav>
+	<div class="row nbar2">
+		<div class="col-6 tb2">
+			
+			<img src="img/pdf.gif" class="img-fluid" alt="Responsive image">
+		</div>
+		<div class="col-6">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Oo1Cf4T7jvE" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+	<!-- Functionalities + Warnings -->
+	<div class="row">
+		<div class="col-6 tb2">
+			
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-success">Functions</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">1</th>
+					<td>Merge Multiples Pdf to Single Pdf</td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Add A Blank Page to Odd Number of Pages And Merge to A Single Pdf</td>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td >Split Every Page Of Pdf and also Dynamic Way</td>
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+		<div class="col-6 tb2">
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-danger">Warnings</th>
+				  </tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Must Close the all Files That You Working with </td>
+					  </tr>
+					  <tr>
+						<th scope="row">2</th>
+						<td >Please Rename The File Name Given by the Application To Ignore Redundancy</td>
+					  </tr>
+				</tbody>
+			  </table>
+		</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid fw" id="PyGems_Renamer">
+	<nav class="navbar navbar-light bg-dark nbar">
+		<h1>PyGems Batch File Renamer</h1>
+		<a href="https://drive.google.com/uc?id=1ARShoB-ix5gWHPe2FFX6g3VDOYU-MYFS&export=download" class="btn btn-warning" role="button" aria-pressed="true">Download</a>
+
+	  </nav>
+	<div class="row nbar2">
+		<div class="col-6 tb2">
+			
+			<img src="img/renamer.gif" class="img-fluid" alt="Responsive image">
+		</div>
+		<div class="col-6">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+	<!-- Functionalities + Warnings -->
+	<div class="row">
+		<div class="col-6 tb2">
+			
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-success">Functions</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">1</th>
+					<td>Add Your extension with Dynamic way</td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Replace Batch File Name with Dynamic Way</td>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td >Randomize name Both Number and Text Support</td>
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+		<div class="col-6 tb2">
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-danger">Warnings</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">1</th>
+					<td>Must Close the all Files That You Working with </td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Remove Read Only From Your Files</td>
+				  </tr>
+				  
+				</tbody>
+			  </table>
+		</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid fw" id="PyGems_Combo">
+	<nav class="navbar navbar-light bg-dark nbar">
+		<h1>PyGems Office Utilities Combo</h1>
+		<a href="https://drive.google.com/uc?id=1fTj540jrnOMpcUT5Bf5lZguBIOmlup_s&export=download
+		" class="btn btn-warning" role="button" aria-pressed="true">Download</a>
+
+	  </nav>
+	<div class="row nbar2">
+		<div class="col-6 tb2">
+			
+			<img src="img/combo.gif" class="img-fluid" alt="Responsive image">
+		</div>
+		<div class="col-6">
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+	<!-- Functionalities + Warnings -->
+	<div class="row">
+		<div class="col-6 tb2">
+			
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-success">Functionas</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">1</th>
+					<td>Excel Merge ans Split</td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Pdf Merge and Split</td>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td >Batch File Renamer</td>
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+		<div class="col-6 tb2">
+			<table class="table table-bordered table-hover">
+				<thead>
+				  <tr>
+					<th scope="col" class="bg-danger">Warnings</th>
+				  </tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Must Close the all Files That You Working with </td>
+					  </tr>
+					  <tr>
+						<th scope="row">2</th>
+						<td>Remove Read Only From Your Files</td>
+					  </tr>
+				</tbody>
+			  </table>
+		</div>
+			
+		</div>
+	</div>
+</div>
+
+<!-- Tutorial portion end  -->
+
 
 <!--- Cards -->
 <div class="cointainer-fluid ">
@@ -178,10 +528,15 @@
 
 <!--- Footer -->
 <div class="footer-margin">
-  <footer class="card-footer bg-light footer-font-style text-center footer-position">Copyright &copy; www.pygems.com 
+  <footer class="card-footer footer-font-style text-center footer-position">Copyright &copy; www.pygems.com 
   </footer>
 </div>
 
+
+<script type="text/javascript">
+	var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow7.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+	<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+	
 </body>
 </html>
 
