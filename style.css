@@ -113,7 +113,7 @@ font-family: 'Slabo 35px', serif;
   
 }
 
-.buttons2 a.btn{
+.buttons a.btn{
   margin: :10px;
   padding: 10px,20px;
 
@@ -132,7 +132,7 @@ font-family: 'Slabo 35px', serif;
   font-size:24px;
 
 }
-.buttons2{
+.buttons{
   text-align: center;
   padding-top: 9px;
   padding-bottom: 65px;
