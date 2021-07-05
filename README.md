@@ -1,1 +1,1 @@
-# pygems
+# pygems.com
